@@ -26,7 +26,7 @@ do
 		zenity --info --title="saida do comando" --text="Existem o total de $(grep -o -P '\t' $arquivo | wc -l) parágrafos nesse arquivo" --height=170 --width=360 ;;
 	
 		'4')
-	zenity --info --title="saida do comando" --text="Existem o total de $(grep -Eo [0-9] $arquivo | wc -w) números nesse arquivo" --height=170 --width=360 ;;
+		zenity --info --title="saida do comando" --text="Existem o total de $(grep -Eo [0-9] $arquivo | wc -w) números nesse arquivo" --height=170 --width=360 ;;
 
 		'5')	
 		zenity --info --title="saida do comando" --text="Existem o total de $(grep -Eo [a-zA-Z] $arquivo | wc -w) letras nesse arquivo" --height=170 --width=360 ;;
